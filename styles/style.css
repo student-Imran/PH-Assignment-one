@@ -90,3 +90,125 @@ nav ul li button{
 .action-img img{
     border-radius: 30px;
 }
+
+.users{
+    margin: 50px auto;
+    width: 1000px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.users-details{
+    width: 930px;
+    height: 300px;
+    text-align: center;
+    background-color: rgba(78,71,255,10%);
+    border-radius: 10px;
+}
+.users-details h1{
+    color: #252432;
+    font-size: 38px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.user-num{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    
+}
+.user-num div h1{
+    color: #4E47FF;
+    font-weight: bold;
+    font-size: 80px;
+}
+.user-num div p{
+    color: rgba(37, 36, 50, 50%);
+}
+
+.users-feedback{
+    margin: 137px auto;
+    width: 1000px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.user-feedback-details{
+    width: 1000px;
+    height: 350px;
+    text-align: center;
+    border-radius: 10px;
+}
+.feedback{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    gap: 15px;
+}
+.feedback div{
+    width: 32%;
+    height: 200px;
+    background-color: white;
+    border: 1px solid white;
+    box-shadow: 0px 5px 5px #F2EDED;
+    border-radius: 10px;
+}
+.first-fb div{
+    box-shadow: none;
+}
+.first-fb .star{
+    width: 200px;
+    height: 20px;
+    display: flex;
+    gap: 5px;
+
+}
+.first-fb {
+    text-align: left;
+    overflow: hidden;
+}
+.first-fb h2{
+    color: #1E1E1E;
+}
+.first-fb p{
+    color:#1E1E1E;
+}
+.first-fb h2,
+.first-fb .star,
+.first-fb p
+{
+    margin-top: 15px;
+    margin-left: 24px;
+}
+.first-fb div{
+    margin-left: 24px;
+}
+.first-fb .user-photo-comment{
+    display: flex;
+    align-items: center;
+    width: 250px;
+    height: 60px;
+}
+.first-fb .user-photo-comment .name-comment{
+    width: 160px;
+    height: 5px;
+    margin-bottom: 20px;
+}
+.first-fb .user-photo-comment .name-comment h5 span{
+    font-weight: 400;
+    color: #B3B3B3;
+}
+.first-fb .user-photo-comment .name-comment h5{
+    color: #757575;
+}
+.first-fb .user-photo-comment img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
