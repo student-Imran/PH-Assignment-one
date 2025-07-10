@@ -55,3 +55,38 @@ nav ul li button{
     border-radius: 10px;
 }
 
+.action-parent{
+    width: 100%;
+    height: 400px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.action{
+    width: 1000px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 220px;
+}
+.action-description p{
+    color: rgba(37, 36, 50, 50%);
+}
+.action-description h1,
+.action-description p,
+.action-description button
+{
+    margin-top: 20px;
+}
+.action-description button{
+    padding: 10px 20px;
+    color: white;
+    background-color: #4E47FF;
+    border: none;
+    border-radius: 10px;
+}
+.action-img img{
+    border-radius: 30px;
+}
