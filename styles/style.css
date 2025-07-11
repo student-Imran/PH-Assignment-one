@@ -1,3 +1,17 @@
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
 *{
   padding: 0;
    margin: 0;
@@ -7,7 +21,7 @@ body{
    margin: 0;
    width: 100%;
    height: 100vh;
-    background-color: #D6DDED;
+    background-color: #F5F8FF;
 }
 button{
     cursor: pointer;
@@ -17,6 +31,8 @@ button:hover {
     font-weight: bold;
   background: linear-gradient(35deg, #4E47FF, #7F76FF, #AFA9FF);
 }
+
+/*---Header part start: nav + banner---*/
 
 header{
     width: 100%;
@@ -64,6 +80,14 @@ nav ul li button{
     border-radius: 10px;
 }
 
+/*---Header Part End---*/
+
+
+
+
+/*---Action Part Start---*/
+
+
 .action-parent{
     width: 100%;
     height: 400px;
@@ -100,8 +124,15 @@ nav ul li button{
     border-radius: 30px;
 }
 
+
+/*---Action Part End---*/
+
+
+
+/*---Users Review or Users Feedback Start---*/
+
 .users{
-    margin: 50px auto;
+    margin: 70px auto;
     width: 1000px;
     height: 300px;
     display: flex;
@@ -110,7 +141,7 @@ nav ul li button{
 }
 .users-details{
     width: 930px;
-    height: 300px;
+    height: 350px;
     text-align: center;
     background-color: rgba(78,71,255,10%);
     border-radius: 10px;
@@ -147,7 +178,7 @@ nav ul li button{
     justify-content: center;
 }
 .user-feedback-details{
-    width: 1000px;
+    width: 970px;
     height: 350px;
     text-align: center;
     border-radius: 10px;
@@ -220,6 +251,9 @@ nav ul li button{
     height: 30px;
     border-radius: 50%;
 }
+
+
+/*---Users Review or Users Feedback End---*/
 
 
 /* Ready to focus better */
@@ -296,6 +330,20 @@ form input[type="text"]{
     border: none;
     padding: 10px 0;
     margin: 5px 0px;
+}
+form input::placeholder{
+    padding: 5px 15px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 50%);
+}
+form textarea::placeholder{
+    padding-top: 15px;
+    padding-left: 20px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 50%);
+}
+form label{
+    font-weight: 600;
 }
 form textarea{
     width: 100%;
