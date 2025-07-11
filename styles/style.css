@@ -340,9 +340,9 @@ form label{
 }
 form textarea{
     width: 100%;
-     margin: 5px 0px;
-     border: none;
-     border-radius: 10px;
+    margin: 5px 0px;
+    border: none;
+    border-radius: 10px;
 }
 form button{
     width: 100%;
