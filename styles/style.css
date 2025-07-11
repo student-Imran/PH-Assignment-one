@@ -88,15 +88,7 @@ nav ul li button{
 
 /*---Action Part Start---*/
 
-/*
-.action-parent{
-    width: 100%;
-    height: 400px;
-    margin-top: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}*/
+
 .action{
     width: 1000px;
     height: 350px;
@@ -132,15 +124,7 @@ nav ul li button{
 
 
 /*---Productive-Users Start---*/
-/*
-.users{
-    margin: 70px auto;
-    width: 1000px;
-    height: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}*/
+
 .users-details{
     width: 1000px;
     height: 300px;
@@ -176,15 +160,8 @@ nav ul li button{
 
 
 /*---Users Review Or Feedback Start---*/
-/*
-.users-feedback{
-    margin: 137px auto;
-    width: 1000px;
-    height: 400px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}*/
+
+
 .user-feedback-details{
     margin: 137px auto 0;
     width: 1000px;
