@@ -21,15 +21,16 @@ body{
    margin: 0;
    width: 100%;
    height: 100vh;
-    background-color: #F5F8FF;
+   background-color: #F5F8FF;
 }
-button{
+.btn{
     cursor: pointer;
-     transition: background 0.4s ease; 
+    transition: all 0.04s ease-in-out; 
 }
-button:hover {
+.btn:hover{
+    color: black;
     font-weight: bold;
-  background: linear-gradient(35deg, #4E47FF, #7F76FF, #AFA9FF);
+  background: linear-gradient(135deg, #4E47FF, #7F76FF, #AFA9FF);
 }
 
 /*---Header part start: nav + banner---*/
@@ -87,7 +88,7 @@ nav ul li button{
 
 /*---Action Part Start---*/
 
-
+/*
 .action-parent{
     width: 100%;
     height: 400px;
@@ -95,16 +96,17 @@ nav ul li button{
     display: flex;
     align-items: center;
     justify-content: center;
-}
+}*/
 .action{
     width: 1000px;
     height: 350px;
     display: flex;
+    margin: 116px auto 0;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: 220px;
 }
-.action-description p{
+.action-description .sub-title{
     color: rgba(37, 36, 50, 50%);
 }
 .action-description h1,
@@ -129,8 +131,8 @@ nav ul li button{
 
 
 
-/*---Users Review or Users Feedback Start---*/
-
+/*---Productive-Users Start---*/
+/*
 .users{
     margin: 70px auto;
     width: 1000px;
@@ -138,19 +140,20 @@ nav ul li button{
     display: flex;
     align-items: center;
     justify-content: center;
-}
+}*/
 .users-details{
-    width: 930px;
-    height: 350px;
+    width: 1000px;
+    height: 300px;
+    margin: 116px auto 0;
     text-align: center;
     background-color: rgba(78,71,255,10%);
     border-radius: 10px;
 }
-.users-details h1{
+.users-details .center-title{
     color: #252432;
     font-size: 38px;
     font-weight: bold;
-    margin-top: 50px;
+    padding-top: 20px;
 }
 .user-num{
     display: flex;
@@ -169,6 +172,11 @@ nav ul li button{
     color: rgba(37, 36, 50, 50%);
 }
 
+/*---Productive-Users End---*/
+
+
+/*---Users Review Or Feedback Start---*/
+/*
 .users-feedback{
     margin: 137px auto;
     width: 1000px;
@@ -176,9 +184,10 @@ nav ul li button{
     display: flex;
     align-items: center;
     justify-content: center;
-}
+}*/
 .user-feedback-details{
-    width: 970px;
+    margin: 137px auto 0;
+    width: 1000px;
     height: 350px;
     text-align: center;
     border-radius: 10px;
@@ -253,17 +262,18 @@ nav ul li button{
 }
 
 
+
 /*---Users Review or Users Feedback End---*/
 
 
-/* Ready to focus better */
+/*---Ready to focus better(Optional-Part) Start---*/
 
 .focus{
     width: 1000px;
     height: 550px;
     text-align: center;
     border: 2px solid rgba(255, 255, 255, 100%);
-    margin: 0 auto;
+    margin: 137px auto 0;
     border-radius: 14px;
     background-color: rgba(255, 255, 255, 100%);
     
@@ -296,10 +306,16 @@ nav ul li button{
     border-radius: 30px;
 }
 
+
+/*---Ready to focus better(Optional-Part) End---*/
+
+
+/*---NewsLetter Start---*/
+
 .form-section{
     width: 1000px;
-    height: 400px;
-    margin: 150px auto;
+    height: 350px;
+    margin: 137px auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -329,7 +345,7 @@ form input[type="text"]{
     font-size: 18px;
     border: none;
     padding: 10px 0;
-    margin: 5px 0px;
+    margin: 5px 0px 15px;
 }
 form input::placeholder{
     padding: 5px 15px;
@@ -358,9 +374,17 @@ form button{
     border-radius: 10px;
     background-color: #4E47FF;
     color: white;
+    margin-top: 10px;
 }
 
-/* Footer start */
+
+/*---NewsLetter End---*/
+
+
+
+/*---Footer start---*/
+
+
 footer{
     width: 100%;
     height: 400px;
@@ -396,4 +420,5 @@ footer{
     color: #8987A1;
 }
 
-/* Footer End */
+
+/*---Footer End---*/
