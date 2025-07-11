@@ -303,3 +303,41 @@ form button{
     background-color: #4E47FF;
     color: white;
 }
+
+/* Footer start */
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot{
+    width: 500px;
+    height: 150px;
+    text-align: center;
+}
+.foot .footer-ul ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+.foot .footer-ul ul li{
+    list-style: none;
+}
+.foot .footer-ul ul li a{
+    text-decoration: none;
+    color: #8987A1;
+}
+.footer-heading-pgp h1{
+    font-size: 100px;
+    color: #4E47FF;
+}
+.footer-heading-pgp p{
+    color: #8987A1;
+}
+
+/* Footer End */
