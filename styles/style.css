@@ -10,11 +10,14 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
-
+.hide{
+    display: none;
+}
 
 *{
   padding: 0;
    margin: 0;
+     box-sizing: border-box;
 }
 body{
    padding: 0;
@@ -37,6 +40,7 @@ body{
 
 header{
     width: 100%;
+    max-width: cover;
     height: 698px;
     background-image: url('../images/Hero-bg.png');
     background-size: cover;
@@ -64,7 +68,8 @@ nav ul li button{
 }
 .header-description{
     margin: 0 auto;
-    width: 905px;
+    width: 100%;
+    max-width: 905px;
     margin-top: 158px;
     text-align: center;
 }
@@ -80,6 +85,20 @@ nav ul li button{
     border: none;
     border-radius: 10px;
 }
+@media screen and (max-width:400px){
+    header{
+        height: auto;
+    }
+    nav ul{
+        flex-direction: column;
+        height: auto;
+    }
+    .header-description h1{
+        font-size: 40px;
+        font-weight: 600;
+    }
+    
+}
 
 /*---Header Part End---*/
 
@@ -90,7 +109,8 @@ nav ul li button{
 
 
 .action{
-    width: 1000px;
+    width: 100%px;
+    max-width: 1000px;
     height: 350px;
     display: flex;
     margin: 116px auto 0;
@@ -118,7 +138,20 @@ nav ul li button{
     border-radius: 30px;
 }
 
-
+@media screen and (max-width:400px)  {
+    .action{
+        flex-direction: column;
+        gap: 50px;
+        align-items: center;
+        height: auto;
+       
+    }
+    .action-img img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+}
 /*---Action Part End---*/
 
 
@@ -126,7 +159,8 @@ nav ul li button{
 /*---Productive-Users Start---*/
 
 .users-details{
-    width: 1000px;
+    width: 100%;
+    max-width: 1000px;
     height: 300px;
     margin: 116px auto 0;
     text-align: center;
@@ -156,6 +190,16 @@ nav ul li button{
     color: rgba(37, 36, 50, 50%);
 }
 
+@media screen and (max-width:400px) {
+    .users-details{
+        height: auto;
+    }
+    .user-num{
+        flex-direction: column;
+    }
+    
+}
+
 /*---Productive-Users End---*/
 
 
@@ -163,8 +207,9 @@ nav ul li button{
 
 
 .user-feedback-details{
+    width: 100%;
     margin: 137px auto 0;
-    width: 1000px;
+    max-width: 1000px;
     height: 350px;
     text-align: center;
     border-radius: 10px;
@@ -237,6 +282,19 @@ nav ul li button{
     height: 30px;
     border-radius: 50%;
 }
+@media screen and (max-width:400px) {
+    .feedback{
+        flex-direction: column;
+        height: auto;
+    }
+    .feedback div{
+        width: 100%;
+        height: auto;
+    }
+    .user-feedback-details{
+        height: auto;
+    }
+}
 
 
 
@@ -246,7 +304,8 @@ nav ul li button{
 /*---Ready to focus better(Optional-Part) Start---*/
 
 .focus{
-    width: 1000px;
+    width: 100%;
+   max-width: 1000px;
     height: 550px;
     text-align: center;
     border: 2px solid rgba(255, 255, 255, 100%);
@@ -256,7 +315,8 @@ nav ul li button{
     
 }
 .focus img{
-    width: 650px;
+    width: 100%;
+    max-width: 650px;
     height: 250px;
 }
 .focus h1,
@@ -290,7 +350,8 @@ nav ul li button{
 /*---NewsLetter Start---*/
 
 .form-section{
-    width: 1000px;
+    width: 100%;
+    max-width: 1000px;
     height: 350px;
     margin: 137px auto;
     display: flex;
@@ -299,7 +360,8 @@ nav ul li button{
    
 }
 .form-section .title{
-    width: 530px;
+    width: 100%;
+    max-width: 530px;
     height: 235px;
     display: flex;
     align-items: center;
@@ -352,6 +414,20 @@ form button{
     background-color: #4E47FF;
     color: white;
     margin-top: 10px;
+}
+
+@media screen and (max-width:400px){
+     .form-section{
+        flex-direction: column;
+        height: auto;
+     }
+     .form-section .title h1{
+        font-size: 50px;
+     }
+     form{
+        width: 100%;
+        height: auto;
+     }
 }
 
 
